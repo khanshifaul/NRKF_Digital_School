@@ -1,5 +1,5 @@
 <template>
-    <div class="grid max-h-[60%]">
+    <div class="grid grid-cols-[1fr_auto]">
         <swiper :spaceBetween="30" :effect="'fade'" :navigation="true" :pagination="{cickable: true}"
             :autoplay="{ delay: 1500, disableOnInteraction: true }" :modules="modules" class="mySwiper">
             <swiper-slide><img src="https://swiperjs.com/demos/images/nature-1.jpg" /></swiper-slide>
@@ -39,7 +39,7 @@ export default {
 <style scoped>
 .swiper {
     width: 100%;
-    height: 100%;
+    height: 55%;
 }
 
 .swiper-slide {
