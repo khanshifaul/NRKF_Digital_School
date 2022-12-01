@@ -10,7 +10,7 @@ import HelloWorldModalVue from './HelloWorldModal.vue'
     <div class="container mx-auto">
       <div class="grid md:grid-cols-[3fr_1fr] h-full">
 
-        <div class="flex flex-col space-y-3 bg-orange-200 p-3">
+        <div class="grid grid-rows-[1fr_auto] gap-3 bg-orange-200 p-3">
           <HelloWorldCarouselVue />
           <HelloWorldLatestNoticeVue />
         </div>
