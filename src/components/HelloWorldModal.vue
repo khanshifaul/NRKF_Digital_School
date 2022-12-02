@@ -9,7 +9,7 @@ const show = ref(true)
     <Teleport to="body">
         <Transition name="slide-fade">
             <div id="Modal" v-if="show"
-                class="fixed top-[50%] bottom-[50%] left-[50%] right-[50%] grid place-content-center z-10">
+                class="fixed top-1/2 bottom-1/2 left-1/2 right-1/2 grid place-content-center z-10">
                 <div class="relative text-white flex flex-col">
                     <div class="grid place-content-center w-screen h-screen p-6 backdrop-blur">
                         <div class="relative w-full">

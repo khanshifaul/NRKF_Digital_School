@@ -103,6 +103,7 @@ const router = createRouter({
         requiresAuth: false,
       }
     },
+    { path: '/:pathMatch(.*)*', name: 'NotFound', component: () => import('../views/NotFound.vue') },
   ],
   linkExactActiveClass: 'LinkActiveClass'
 })
