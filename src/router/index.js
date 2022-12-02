@@ -103,15 +103,6 @@ const router = createRouter({
         requiresAuth: false,
       }
     },
-    {
-      path: '/admin/dashboard',
-      name: 'dashboard',
-      component: () => import('../views/AdminDashboard.vue'),
-      meta: {
-        title: "Register",
-        requiresAuth: false,
-      }
-    },
   ],
   linkExactActiveClass: 'LinkActiveClass'
 })
