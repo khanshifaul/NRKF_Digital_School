@@ -53,8 +53,6 @@ function toggleMobileNav() {
                 <div class="grid md:grid-flow-col md:space-x-1 lg:space-x-4">
                     <router-link class="px-2 border-b-2 border-transparent hover:border-[#FB2576]"
                         :to="{ name: 'login' }">Login</router-link>
-                    <router-link class="px-2 border-b-2 border-transparent hover:border-[#FB2576]"
-                        :to="{ name: 'register' }">Register</router-link>
                 </div>
             </nav>
         </div>
