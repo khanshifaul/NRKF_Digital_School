@@ -1,0 +1,1 @@
+import{_ as s,o as c,c as t,a as e}from"./index.48df3219.js";const o={},a={class:"text-black p-3 md:p-0"},n=e("div",{class:"container mx-auto"},[e("div",{class:"grid"},[e("div",null,"Help Page")])],-1),_=[n];function r(i,d){return c(),t("section",a,_)}const p=s(o,[["render",r]]);export{p as default};
